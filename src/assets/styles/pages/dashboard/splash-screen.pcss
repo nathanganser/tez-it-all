@@ -1,0 +1,42 @@
+.dashboard-splash-screen {
+   @apply fixed inset-0 z-10
+   flex flex-col items-center justify-center
+   bg-default;
+
+   .screen {
+      &-logo {
+         @apply w-64px mb-10;
+      }
+
+      &-title {
+         @apply mb-1 text-xl lg:text-3xl font-medium;
+      }
+
+      &-subtitle {
+         @apply text-base text-default/68;
+      }
+
+      &-loader {
+         @apply w-200px h-6px my-10
+         relative overflow-hidden
+         bg-black/13 rounded-full;
+
+         &:after {
+            @apply w-80px content absolute inset-y-0
+            bg-indigo-500;
+
+            animation: splash-bar-loader 1400ms ease infinite;
+         }
+      }
+   }
+}
+
+@keyframes splash-bar-loader {
+   0% {
+      transform: translateX(-200%);
+   }
+
+   100% {
+      transform: translateX(200px);
+   }
+}

@@ -5,6 +5,7 @@
          v-bind="{ contract }"
          class="dashboard-contract-actions"
       />
+      <SplashScreen v-bind="{ isLoaded }" />
    </main>
 </template>
 
