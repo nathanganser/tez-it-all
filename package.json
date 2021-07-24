@@ -40,8 +40,5 @@
       "eslint-import-resolver-typescript": "^2.4.0",
       "eslint-plugin-import": "^2.23.3",
       "eslint-plugin-vue": "^7.9.0"
-   },
-   "resolutions": {
-      "postcss": "8.3.6"
    }
 }
