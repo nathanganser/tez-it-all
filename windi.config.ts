@@ -33,17 +33,12 @@ export default defineConfig({
    plugins: [
       pluginScrollbar,
       pluginHeroPatterns({
-         patterns: ['architect', 'polka-dots', 'hideout', 'plus'],
-
+         patterns: ['hideout'],
          colors: {
-            default: '#000',
-            inverse: '#fff',
-            accent: '#536aff'
+            default: '#000'
          },
-
          opacity: {
-            default: '0.087',
-            100: '1.0'
+            default: '0.087'
          }
       })
    ]
