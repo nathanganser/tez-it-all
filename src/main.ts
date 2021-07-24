@@ -1,6 +1,5 @@
 import 'virtual:windi.css';
 import '@styles/index.css';
-import '~/plugins/polyfill';
 
 import { createApp } from 'vue';
 import App from '~/App.vue';
