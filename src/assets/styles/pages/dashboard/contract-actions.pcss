@@ -1,0 +1,44 @@
+.contract-actions {
+   @apply w-full flex flex-col gap-4 md:(flex-row) lg:(flex-col gap-8);
+
+   &-button {
+      @apply px-2 py-4 w-full relative overflow-hidden
+      flex flex-col flex-grow items-center justify-center
+      rounded-2xl shadow cursor-pointer select-none focus:outline-none;
+
+      border: 1px solid transparent;
+
+      transition: all 200ms ease;
+      transition-property: transform, color, background-color;
+      will-change: transform;
+
+      &:active {
+         transform: scale(0.97);
+      }
+
+      &.button-bid {
+         @apply bg-indigo-500 text-white/87
+         hover:bg-indigo-600;
+      }
+
+      &.button-claim {
+         @apply bg-blue-500 text-white/87
+         hover:bg-blue-600;
+      }
+
+      &.disabled {
+         @apply pointer-events-none
+         filter grayscale-100;
+      }
+   }
+
+   &-button .action {
+      &-label {
+         @apply mb-2 text-xl lg:text-3xl;
+      }
+
+      &-sublabel {
+         @apply text-center text-sm sm:text-base text-white/75;
+      }
+   }
+}

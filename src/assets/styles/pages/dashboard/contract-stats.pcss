@@ -1,0 +1,37 @@
+.contract-stats {
+   @apply !p-0 w-full
+   text-center overflow-hidden;
+
+   .stats-amount {
+      @apply relative py-10 my-auto
+      font-medium text-3xl sm:text-5xl md:text-7xl lg:text-8xl;
+
+      &:after {
+         @apply absolute ml-1 content-ꜩ
+         text-default/80 text-xl md:text-3xl;
+      }
+   }
+
+   .stats-items {
+      @apply grid grid-cols-2;
+
+      .stats-item {
+         @apply p-5 flex flex-col items-center justify-center;
+         border-top: 1px solid rgba(0, 0, 0, 0.08);
+
+         &:first-of-type {
+            border-right: 1px solid rgba(0, 0, 0, 0.08);
+         }
+
+         &-label {
+            @apply text-base text-default/78;
+         }
+
+         &-value {
+            @apply mb-1 max-w-[75%]
+            overflow-hidden overflow-ellipsis outline-none
+            text-xl font-medium;
+         }
+      }
+   }
+}

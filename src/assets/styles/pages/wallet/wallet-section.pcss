@@ -1,0 +1,49 @@
+.wallet-section {
+   @apply w-full;
+
+   &,
+   &-header {
+      @apply flex flex-col items-center justify-center;
+   }
+
+   &-header {
+      @apply mb-10;
+
+      .header-logo {
+         @apply w-128px mb-16;
+      }
+
+      .header-title {
+         @apply text-xl font-medium;
+      }
+
+      .header-subtitle {
+         @apply text-center text-base text-default/60;
+      }
+   }
+
+   .wallet-section-cta {
+      @apply px-6 py-2 w-62 h-10 overflow-hidden
+      outline-none border-2 border-transparent
+      rounded-full shadow-md bg-hex-ed8936 text-white;
+
+      transition: all 200ms ease;
+      transition-property: border-color, transform, width;
+      will-change: transform;
+
+      --spinner-color: #fff;
+
+      &:hover {
+         @apply border-hex-fc7416/40;
+      }
+
+      &:active {
+         @apply border-hex-fc7416;
+         transform: scale(0.98);
+      }
+
+      &.loading {
+         @apply w-48;
+      }
+   }
+}
