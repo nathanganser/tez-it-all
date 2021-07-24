@@ -35,7 +35,6 @@ export default defineComponent({
       },
 
       onClaimProcessed(result: boolean) {
-         console.log(result);
          this.isProcessing = false;
          this.claimStatus = result;
       }

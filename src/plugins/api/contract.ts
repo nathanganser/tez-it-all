@@ -14,7 +14,6 @@ export async function getTotalBidAmount(): Promise<number> {
 export async function getContractStats(): Promise<ContractStats> {
    const contract = await tezos.contract.at(contractAddress);
    const storage: any = await contract.storage();
-   console.log(storage.lastBid);
 
    const totalAmount = Number(storage.lastBid.c[0] / 1e6);
    const currentWinner = String(storage.currentWinner);
