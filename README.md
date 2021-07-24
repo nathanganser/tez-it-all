@@ -1,5 +1,5 @@
 <center>
-<img src="public/favicon.ico">
+<img src="src/assets/drawable/icons/app-logo.png" draggable="false">
 <br/>
 <br/>
 <h1>TezItAll</h1>

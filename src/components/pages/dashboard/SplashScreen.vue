@@ -3,7 +3,7 @@
       <div v-if="!isLoaded" class="dashboard-splash-screen">
          <img
             class="screen-logo"
-            src="favicon.ico"
+            src="@assets/drawable/icons/app-logo.png"
             draggable="false"
             loading="eager"
          >
