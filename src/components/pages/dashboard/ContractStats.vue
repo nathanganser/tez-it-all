@@ -19,7 +19,7 @@
             <span class="stats-item-value">
                {{ stats.expiryDateString || '-' }}
             </span>
-            <span class="stats-item-label">Expires in</span>
+            <span class="stats-item-label">Tez claimable at</span>
          </div>
       </div>
    </div>
