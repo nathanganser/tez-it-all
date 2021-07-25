@@ -10,8 +10,8 @@
    "dependencies": {
       "@taquito/taquito": "^9.2.0",
       "@temple-wallet/dapp": "^4.0.0",
-      "vue": "^3.1.5",
-      "vue-router": "^4.0.10"
+      "vue": "3.1.5",
+      "vue-router": "4.0.10"
    },
    "devDependencies": {
       "@vitejs/plugin-vue": "1.2.5",
