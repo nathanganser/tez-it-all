@@ -1,11 +1,11 @@
 {
-   "name": "tez-bids",
+   "name": "tez-it-all",
    "version": "1.0.0",
    "license": "MIT",
    "scripts": {
       "dev": "vite",
       "build": "vue-tsc --noEmit && vite build",
-      "serve": "vite preview"
+      "serve": "vite build -m development && vite preview"
    },
    "dependencies": {
       "@taquito/taquito": "^9.2.0",
@@ -26,6 +26,7 @@
       "vite-plugin-components": "0.13.2",
       "vite-plugin-externals": "^0.1.5",
       "vite-plugin-pages": "0.15.1",
+      "vite-plugin-pwa": "^0.8.2",
       "vite-plugin-vue-layouts": "0.3.1",
       "vite-plugin-windicss": "1.2.5",
       "vue-tsc": "0.2.2",

@@ -1,5 +1,6 @@
 import 'virtual:windi.css';
 import '@styles/index.css';
+import '~/plugins/pwa';
 
 import { createApp } from 'vue';
 import App from '~/App.vue';
