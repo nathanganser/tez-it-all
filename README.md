@@ -1,13 +1,12 @@
-<center>
-<img src="src/assets/drawable/icons/app-logo.png" draggable="false">
+
+<div align="center">
+<img src="public/assets/icons/logo.png" draggable="false">
 <br/>
 <br/>
 <h1>TezItAll</h1>
-
 <i>
 Built on top of the Tezos Blockchain. This DAPP interacts with the TezItAll smart contract.
 </i>
 <br/>
 It allows users to bid money and the winner takes all of them.
-
-</center>
+</div>
