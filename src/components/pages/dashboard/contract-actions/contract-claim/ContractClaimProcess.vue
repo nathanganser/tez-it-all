@@ -1,10 +1,7 @@
 <template>
    <div class="contract-claim-process">
       <Spinner />
-      <p class="contract-claim-process-label">
-         Processing...<br>
-         Do not close this window
-      </p>
+      <span class="contract-claim-process-label">Claiming tezos...</span>
    </div>
 </template>
 
