@@ -4,7 +4,7 @@
 
    .stats-amount {
       @apply relative py-10 my-auto
-      font-medium text-3xl sm:text-5xl md:text-7xl lg:text-8xl;
+      font-medium text-4xl sm:text-5xl md:text-7xl lg:text-8xl;
 
       &:after {
          @apply absolute ml-1 content-ꜩ
@@ -24,13 +24,13 @@
          }
 
          &-label {
-            @apply text-base text-default/78;
+            @apply text-sm sm:text-base text-default/78;
          }
 
          &-value {
             @apply mb-1 max-w-[75%]
             overflow-hidden overflow-ellipsis outline-none
-            text-xl font-medium;
+            text-base sm:text-[18px] md:text-xl font-medium;
          }
       }
    }
