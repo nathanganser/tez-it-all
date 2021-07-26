@@ -14,7 +14,11 @@
       >
          <span class="action-label">Claim</span>
          <span class="action-sublabel">
-            You can't claim until bidding is finished
+            {{
+               canClaim
+                  ? 'The winner can currently claim all the tezos!'
+                  : "You can't claim until bidding is finished"
+            }}
          </span>
       </button>
 
@@ -50,7 +54,10 @@ export default defineComponent({
          const expiryDate = this.contract?.expiryDate;
 
          if (expiryDate) {
-            return Date.now() >= expiryDate.getTime();
+            const canClaim = Date.now() >= expiryDate.getTime();
+            const hasMoney = Number(this.contract?.totalAmount) > 0;
+
+            return canClaim && hasMoney;
          }
 
          return false;
