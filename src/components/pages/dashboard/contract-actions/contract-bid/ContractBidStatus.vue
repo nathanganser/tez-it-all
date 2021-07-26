@@ -9,10 +9,9 @@
                loading="eager"
             >
 
-            <h1 class="header-title">Bid Successful</h1>
+            <h1 class="header-title">Transfer Request Sent</h1>
             <h1 class="header-subtitle">
-               Thank you for bidding. You will be able to claim the rewards
-               after the bidding process has finished.
+               Transaction has been broadcasted to the network successfully.
             </h1>
          </div>
 

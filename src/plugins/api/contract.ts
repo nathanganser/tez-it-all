@@ -34,8 +34,8 @@ export async function placeContractBid(amount: number): Promise<boolean> {
       const operation = await contract.methods.add_bid(amount).send({ amount });
 
       return await operation
-         .confirmation()
-         .then((op) => op.completed)
+         .getCurrentConfirmation()
+         .then((hash) => hash === 0)
          .catch(() => false);
    } catch (error) {
       console.error(error);
