@@ -1236,7 +1236,7 @@
     bignumber.js "^9.0.1"
     lodash "^4.17.21"
 
-"@taquito/taquito@^9.2.0":
+"@taquito/taquito@9.2.0":
   version "9.2.0"
   resolved "https://registry.yarnpkg.com/@taquito/taquito/-/taquito-9.2.0.tgz#3337e0132f6764cccc1c0acf224f7e2b470a9f63"
   integrity sha512-oCgF2BIXwRu0o64JppHKYpkq7N5EzfZQXvSQm/ecWEP5Kk2Uf7qNza7yid5zESIuIwTPwGJAv4D8kyc3QYi8Jg==
@@ -1259,7 +1259,7 @@
     bs58check "^2.1.2"
     buffer "^6.0.3"
 
-"@temple-wallet/dapp@^4.0.0":
+"@temple-wallet/dapp@4.0.0":
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/@temple-wallet/dapp/-/dapp-4.0.0.tgz#bac3990fc4316d8126b43a080c6813040c20132d"
   integrity sha512-0Ss5RfoBWgs7Y44FqUrPmPKR6tFDKjagDAj1ykOQ8ARs00Z8mqGYWJ5hIsoo3PH2/WhMJfEjzjzCnMpGEJNvNg==
@@ -1679,7 +1679,7 @@
   dependencies:
     "@vue/compiler-core" "^3.0.0"
 
-"@vuedx/typescript-plugin-vue@0.7.4", "@vuedx/typescript-plugin-vue@^0.7.4":
+"@vuedx/typescript-plugin-vue@0.7.4":
   version "0.7.4"
   resolved "https://registry.yarnpkg.com/@vuedx/typescript-plugin-vue/-/typescript-plugin-vue-0.7.4.tgz#9953251a26ea6f99f6a77c00848072654b4b2038"
   integrity sha512-SVA5UaQYPfyJMSLvOab465mzR4iZnLPqormv78Y9SKbKhS6O09ZgyPM9EBwLYl9ySQQqDyAKBn4H0pYeL3ydoQ==
@@ -1697,7 +1697,7 @@
     vscode-uri "^2.1.2"
     vscode-web-custom-data "^0.3.2"
 
-"@vuedx/typescript-vetur@^0.7.4":
+"@vuedx/typescript-vetur@0.7.4":
   version "0.7.4"
   resolved "https://registry.yarnpkg.com/@vuedx/typescript-vetur/-/typescript-vetur-0.7.4.tgz#1122999ef5210b7b344092efe7de43575731b9d7"
   integrity sha512-6FmsHufU57KAY7PBH8WdrVdCJwoi8gNVN2xMA4IEe5Ayqc5oZzSfXtY/2SsFL3dN8iS0PBVnAii5+Y1fjrYk8Q==
@@ -1726,14 +1726,14 @@
     jiti "^1.10.1"
     windicss "^3.1.4"
 
-"@windicss/plugin-heropatterns@^0.0.8":
+"@windicss/plugin-heropatterns@0.0.8":
   version "0.0.8"
   resolved "https://registry.yarnpkg.com/@windicss/plugin-heropatterns/-/plugin-heropatterns-0.0.8.tgz#55b9b78111779dc928966073b984663eb066c9fa"
   integrity sha512-HaDXY9arOiscyEO6YJl3L/VU8nMHaLxg2nZKfnv+4L+BnSCcaoeAtmI7WbG6YV7amZcN6RZPvXSCHyUh9u+EyA==
   dependencies:
     lodash "^4.17.11"
 
-"@windicss/plugin-scrollbar@^1.2.3":
+"@windicss/plugin-scrollbar@1.2.3":
   version "1.2.3"
   resolved "https://registry.yarnpkg.com/@windicss/plugin-scrollbar/-/plugin-scrollbar-1.2.3.tgz#4796e999e98a4bca6c269fa1faffd2e9b5452cac"
   integrity sha512-+cqv1pEmaNPITeBJ/lO6tc8IjBzRhQ+V9G8r249MMXivYoxUO4DtModBrRGHVvBgsYZgPXDsIv2jqtxc4NqYEg==
@@ -4818,7 +4818,7 @@ ripemd160@^2.0.1:
     hash-base "^3.0.0"
     inherits "^2.0.1"
 
-rollup-plugin-postcss@^4.0.0:
+rollup-plugin-postcss@4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/rollup-plugin-postcss/-/rollup-plugin-postcss-4.0.0.tgz#2131fb6db0d5dce01a37235e4f6ad4523c681cea"
   integrity sha512-OQzT+YspV01/6dxfyEw8lBO2px3hyL8Xn+k2QGctL7V/Yx2Z1QaMKdYVslP1mqv7RsKt6DROIlnbpmgJ3yxf6g==
@@ -5462,7 +5462,7 @@ vite-plugin-components@0.13.2:
     magic-string "^0.25.7"
     minimatch "^3.0.4"
 
-vite-plugin-externals@^0.1.5:
+vite-plugin-externals@0.1.5:
   version "0.1.5"
   resolved "https://registry.yarnpkg.com/vite-plugin-externals/-/vite-plugin-externals-0.1.5.tgz#e3f2d19e473d8575d2aa1eb50ec4231be6ff22d2"
   integrity sha512-i/QSKhcGt+l/7FSEv5j+0Y/m5nfANmaHbcOLm5PHaFVYzL6OwhoMwk205u4lOxVlwjPfy5ZcOdCL9pxZZ0Isog==
@@ -5471,7 +5471,7 @@ vite-plugin-externals@^0.1.5:
     es-module-lexer "^0.4.1"
     magic-string "^0.25.7"
 
-vite-plugin-md@^0.9.0:
+vite-plugin-md@0.9.0:
   version "0.9.0"
   resolved "https://registry.yarnpkg.com/vite-plugin-md/-/vite-plugin-md-0.9.0.tgz#084ce8b7b8d81fe0bea444e20a525f77f8eb2182"
   integrity sha512-onGUxc/uftX+ae1nLcD8264dXfyay0jVXPvF03GJ7givpwWqjGRzA7bABTsOrWfmWOHtyKleKDM+INREY1dvGQ==
@@ -5490,7 +5490,7 @@ vite-plugin-pages@0.15.1:
     json5 "^2.2.0"
     yaml "^2.0.0-7"
 
-vite-plugin-pwa@^0.8.2:
+vite-plugin-pwa@0.8.2:
   version "0.8.2"
   resolved "https://registry.yarnpkg.com/vite-plugin-pwa/-/vite-plugin-pwa-0.8.2.tgz#2789a157e2f71faf834d968945efc22eee9ad64a"
   integrity sha512-DuhFaTTV+a7FczxtKMgBEsaCOifJT5Kpe1KhHL72exb2buPkJ3Na+hoy6akAFDp7T3JuAvH0CAO9kivwbp0MPQ==
