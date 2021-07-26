@@ -9,6 +9,13 @@ declare module '*.vue' {
    export default component;
 }
 
+declare module '*.md' {
+   import { ComponentOptions } from 'vue';
+
+   const Component: ComponentOptions;
+   export default Component;
+}
+
 // Modules
 declare module '@windicss/plugin-scrollbar';
 declare module '@windicss/plugin-heropatterns';
