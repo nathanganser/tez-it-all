@@ -30,9 +30,7 @@
          "@styles/*": ["src/assets/styles/*"]
       },
 
-      "plugins": [
-         { "name": "@vuedx/typescript-plugin-vue" },
-      ]
+      "plugins": [{ "name": "@vuedx/typescript-plugin-vue" }]
    },
    "include": ["*.ts", "src/**/*.ts", "src/**/*.d.ts", "src/**/*.vue"],
    "exclude": ["dist", "node_modules"]

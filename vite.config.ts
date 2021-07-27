@@ -3,7 +3,8 @@ import { defineConfig } from 'vite';
 import Vue from '@vitejs/plugin-vue';
 import Pages from 'vite-plugin-pages';
 import Layouts from 'vite-plugin-vue-layouts';
-import ViteComponents from 'vite-plugin-components';
+import Components from 'vite-plugin-components';
+import Markdown from 'vite-plugin-md';
 import WindiCSS from 'vite-plugin-windicss';
 import { VitePWA } from 'vite-plugin-pwa';
 
@@ -17,14 +18,20 @@ export default defineConfig({
    },
 
    plugins: [
-      Vue(),
+      Vue({
+         include: [/\.vue$/, /\.md$/]
+      }),
+      Markdown({
+         markdownItOptions: {
+         }
+      }),
       Pages({
          routeBlockLang: 'yaml'
       }),
       Layouts({
          layoutsDir: 'src/components/layouts'
       }),
-      ViteComponents(),
+      Components(),
       WindiCSS(),
       VitePWA({
          srcDir: 'src',

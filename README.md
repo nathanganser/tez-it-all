@@ -9,4 +9,7 @@ Built on top of the Tezos Blockchain. This DAPP interacts with the TezItAll smar
 </i>
 <br/>
 It allows users to bid money and the winner takes all of them.
+<br/>
+<br/>
+See <a href="docs/faq.md">FAQ</a>
 </div>

@@ -73,6 +73,7 @@ module.exports = {
       '@typescript-eslint/no-empty-function': 'off',
 
       'no-param-reassign': 'warn',
+      'import/no-absolute-path': 'warn',
       'import/prefer-default-export': 'off',
       'import/no-extraneous-dependencies': [
          'error',
