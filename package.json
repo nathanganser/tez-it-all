@@ -31,7 +31,7 @@
       "vite-plugin-vue-layouts": "0.3.1",
       "vite-plugin-windicss": "1.2.7",
       "vue-tsc": "0.2.2",
-      "windicss": "3.1.5"
+      "windicss": "3.1.6"
    },
    "optionalDependencies": {
       "@types/node": "^16.4.1",
