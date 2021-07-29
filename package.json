@@ -8,7 +8,7 @@
       "serve": "vite build -m development && vite preview"
    },
    "dependencies": {
-      "@taquito/taquito": "9.2.0",
+      "@taquito/taquito": "10.0.0",
       "@temple-wallet/dapp": "4.0.0",
       "vue": "3.1.5",
       "vue-router": "4.0.10"
