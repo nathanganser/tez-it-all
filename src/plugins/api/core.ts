@@ -1,4 +1,9 @@
-import { TezosToolkit, ContractAbstraction, Wallet } from '@taquito/taquito';
+import {
+   TezosToolkit,
+   ContractAbstraction,
+   Wallet,
+   WalletProvider
+} from '@taquito/taquito';
 import { TempleWallet } from '@temple-wallet/dapp';
 
 const rpc = import.meta.env.VITE_APP_RPC_CLIENT as string;
@@ -31,7 +36,7 @@ export async function connectWallet(): Promise<TempleWallet> {
       await wallet.connect(network);
 
       // Set Tezos Wallet Provider
-      tezos.setWalletProvider(wallet);
+      tezos.setWalletProvider(wallet as unknown as WalletProvider);
    }
 
    return wallet;

@@ -1,10 +1,14 @@
 <template>
    <main class="view-dashboard">
-      <ContractStats :stats="contract" class="dashboard-contract-stats" />
-      <ContractActions
-         v-bind="{ contract }"
-         class="dashboard-contract-actions"
-      />
+      <div class="view-dashboard-contract">
+         <ContractStats :stats="contract" class="dashboard-contract-stats" />
+         <ContractActions
+            v-bind="{ contract }"
+            class="dashboard-contract-actions"
+         />
+      </div>
+
+      <ContractFaq />
       <SplashScreen v-bind="{ isLoaded }" />
    </main>
 </template>

@@ -8,10 +8,6 @@
          >
          <span class="view-navbar-brand-label">TezItAll</span>
       </div>
-
-      <div class="view-navbar-links">
-         <NavbarFaq />
-      </div>
    </header>
 </template>
 
