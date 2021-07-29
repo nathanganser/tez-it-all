@@ -36,7 +36,7 @@ export async function connectWallet(): Promise<TempleWallet> {
       await wallet.connect(network);
 
       // Set Tezos Wallet Provider
-      tezos.setWalletProvider(wallet as WalletProvider);
+      tezos.setWalletProvider(wallet as unknown as WalletProvider);
    }
 
    return wallet;
