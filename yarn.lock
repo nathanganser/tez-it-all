@@ -1259,7 +1259,7 @@
     bs58check "^2.1.2"
     buffer "^6.0.3"
 
-"@temple-wallet/dapp@^4.0.1":
+"@temple-wallet/dapp@4.0.1":
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/@temple-wallet/dapp/-/dapp-4.0.1.tgz#e506bb5743570d308b46458fcee7dff43f4f8fd1"
   integrity sha512-0ARUKpY5vGEmvaBFtc1n6lcX1P9wzIjupSe6X1lFZGxp/8vNO3wcI0lsOs2r/7swFTwmQ+P8lZbougd0JOfiWQ==
