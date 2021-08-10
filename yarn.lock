@@ -5558,10 +5558,10 @@ vite-plugin-md@0.10.0:
     gray-matter "^4.0.3"
     markdown-it "^12.1.0"
 
-vite-plugin-pages@0.15.1:
-  version "0.15.1"
-  resolved "https://registry.yarnpkg.com/vite-plugin-pages/-/vite-plugin-pages-0.15.1.tgz#7f8213e399e37c7d059d4392f48608bbda56849a"
-  integrity sha512-So6QJtTeecuE2PU50Qhcbpj9dDraoDS1Qrl9eOE6kKTlqHHLTH/eH0DdI4GTSAZHa2Ucq8zTwIZlkEnMvKu1eA==
+vite-plugin-pages@0.17.1:
+  version "0.17.1"
+  resolved "https://registry.yarnpkg.com/vite-plugin-pages/-/vite-plugin-pages-0.17.1.tgz#d9baf5624579f5788f003c966ce9b9922bb8f6e1"
+  integrity sha512-163lFNoC/b/y/y4rmo4BqUJrAql8YNYbrrQe1DKlNeCPXJlhWGanEUCW5PovzgpQcUnSxrTQ6ZBWg6av8tGtwA==
   dependencies:
     "@antfu/utils" "^0.2.4"
     deep-equal "^2.0.5"
@@ -5779,14 +5779,7 @@ vue-eslint-parser@^7.9.0:
     lodash "^4.17.21"
     semver "^6.3.0"
 
-vue-router@4.0.11:
-  version "4.0.11"
-  resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-4.0.11.tgz#cd649a0941c635281763a20965b599643ddc68ed"
-  integrity sha512-sha6I8fx9HWtvTrFZfxZkiQQBpqSeT+UCwauYjkdOQYRvwsGwimlQQE2ayqUwuuXGzquFpCPoXzYKWlzL4OuXg==
-  dependencies:
-    "@vue/devtools-api" "^6.0.0-beta.14"
-
-vue-router@^4.0.6:
+vue-router@4.0.10, vue-router@^4.0.6:
   version "4.0.10"
   resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-4.0.10.tgz#ec8fda032949b2a31d3273170f8f376e86eb52ac"
   integrity sha512-YbPf6QnZpyyWfnk7CUt2Bme+vo7TLfg1nGZNkvYqKYh4vLaFw6Gn8bPGdmt5m4qrGnKoXLqc4htAsd3dIukICA==
