@@ -17,9 +17,9 @@
 
          <div class="stats-item">
             <span class="stats-item-value">
-               {{ stats.expiryDateString || '-' }}
+               {{ formatRelative(stats.expiryDate) }}
             </span>
-            <span class="stats-item-label">Tez claimable at</span>
+            <span class="stats-item-label">Tez claimable after</span>
          </div>
       </div>
    </div>
@@ -29,6 +29,7 @@
 
 <script lang="ts">
 import { defineComponent, PropType } from 'vue';
+import { formatRelative } from 'date-fns';
 
 export default defineComponent({
    props: {
@@ -41,6 +42,13 @@ export default defineComponent({
    methods: {
       copyBidderAddress() {
          navigator.clipboard.writeText(this.stats.currentWinner);
+      },
+
+      formatRelative(date: Date) {
+         const baseDate = new Date();
+         const formatted = date ? formatRelative(date, baseDate) : '-';
+
+         return formatted;
       }
    }
 });
