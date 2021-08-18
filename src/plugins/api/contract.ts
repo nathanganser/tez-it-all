@@ -28,14 +28,21 @@ export async function getContractStats(): Promise<ContractStats> {
    };
 }
 
-export async function placeContractBid(amount: number): Promise<boolean> {
+export async function placeContractBid(
+   amount: number
+): Promise<boolean | BidStatus> {
    try {
       const contract = await getContractFromWallet(contractAddress);
       const operation = await contract.methods.add_bid(amount).send({ amount });
 
       return await operation
          .getCurrentConfirmation()
-         .then((hash) => hash === 0)
+         .then((hash) => {
+            const state = hash === 0;
+            const promise = operation.confirmation();
+
+            return { state, promise };
+         })
          .catch(() => false);
    } catch (error) {
       console.error(error);
