@@ -5,7 +5,7 @@
 <br/>
 <h1>TezItAll</h1>
 
-[![Build](https://github.com/DaPotatoMan/tez-it-all/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/DaPotatoMan/tez-it-all/actions/workflows/build.yml)
+[![Build](https://github.com/nathanganser/tez-it-all/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/nathanganser/tez-it-all/actions/workflows/build.yml)
 
 <i>
 Built on top of the Tezos Blockchain. This DAPP interacts with the TezItAll smart contract.
