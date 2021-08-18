@@ -3855,10 +3855,10 @@ magic-string@^0.25.0, magic-string@^0.25.7:
   dependencies:
     sourcemap-codec "^1.4.4"
 
-markdown-it@^12.1.0:
-  version "12.1.0"
-  resolved "https://registry.yarnpkg.com/markdown-it/-/markdown-it-12.1.0.tgz#7ad572caddd336bd27a68d20e86bac1fafe8fb20"
-  integrity sha512-7temG6IFOOxfU0SgzhqR+vr2diuMhyO5uUIEZ3C5NbXhqC9uFUHoU41USYuDFoZRsaY7BEIEei874Z20VMLF6A==
+markdown-it@^12.2.0:
+  version "12.2.0"
+  resolved "https://registry.yarnpkg.com/markdown-it/-/markdown-it-12.2.0.tgz#091f720fd5db206f80de7a8d1f1a7035fd0d38db"
+  integrity sha512-Wjws+uCrVQRqOoJvze4HCqkKl1AsSh95iFAeQDwnyfxM09divCBSXlDR1uTvyUP3Grzpn4Ru8GeCxYPM8vkCQg==
   dependencies:
     argparse "^2.0.1"
     entities "~2.1.0"
@@ -5456,13 +5456,13 @@ vite-plugin-externals@0.1.6:
     fs-extra "^10.0.0"
     magic-string "^0.25.7"
 
-vite-plugin-md@0.10.0:
-  version "0.10.0"
-  resolved "https://registry.yarnpkg.com/vite-plugin-md/-/vite-plugin-md-0.10.0.tgz#0e611f7cc700440b778425f7efe37da7e2c99899"
-  integrity sha512-HjSNKZ7q/c8P+DeStOl2/MmuRDDinZJY39Kb1+HIo6fP3l5Tpkr3Ba7jaaJZiYDFEi5VKdHWb+pkxDXAqMuk9A==
+vite-plugin-md@0.11.0:
+  version "0.11.0"
+  resolved "https://registry.yarnpkg.com/vite-plugin-md/-/vite-plugin-md-0.11.0.tgz#cb397270e1a27bc17588d43f1a8a6478055eceac"
+  integrity sha512-sEwJQ0nBawYCEnMGEGsvxA6WM2sBXBFa0SMEAlMiNxivzDCR2/HWc/5qzZAh6ZJ66mivW+1WDruVVtiq/3EqLA==
   dependencies:
     gray-matter "^4.0.3"
-    markdown-it "^12.1.0"
+    markdown-it "^12.2.0"
 
 vite-plugin-pages@0.17.3:
   version "0.17.3"
