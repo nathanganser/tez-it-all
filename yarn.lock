@@ -4859,10 +4859,17 @@ rollup-pluginutils@^2.8.2:
   dependencies:
     estree-walker "^0.6.1"
 
-rollup@^2.38.5, rollup@^2.43.1, rollup@^2.51.2:
+rollup@^2.38.5, rollup@^2.43.1:
   version "2.53.3"
   resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.53.3.tgz#14b0e57f0874d4ad23bdbb13050cf70bcd1eabf7"
   integrity sha512-79QIGP5DXz5ZHYnCPi3tLz+elOQi6gudp9YINdaJdjG0Yddubo6JRFUM//qCZ0Bap/GJrsUoEBVdSOc4AkMlRA==
+  optionalDependencies:
+    fsevents "~2.3.2"
+
+rollup@^2.55.1:
+  version "2.56.2"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.56.2.tgz#a045ff3f6af53ee009b5f5016ca3da0329e5470f"
+  integrity sha512-s8H00ZsRi29M2/lGdm1u8DJpJ9ML8SUOpVVBd33XNeEeL3NVaTiUcSBHzBdF3eAyR0l7VSpsuoVUGrRHq7aPwQ==
   optionalDependencies:
     fsevents "~2.3.2"
 
@@ -5475,15 +5482,15 @@ vite-plugin-pages@0.17.3:
     json5 "^2.2.0"
     yaml "^2.0.0-7"
 
-vite-plugin-pwa@0.8.2:
-  version "0.8.2"
-  resolved "https://registry.yarnpkg.com/vite-plugin-pwa/-/vite-plugin-pwa-0.8.2.tgz#2789a157e2f71faf834d968945efc22eee9ad64a"
-  integrity sha512-DuhFaTTV+a7FczxtKMgBEsaCOifJT5Kpe1KhHL72exb2buPkJ3Na+hoy6akAFDp7T3JuAvH0CAO9kivwbp0MPQ==
+vite-plugin-pwa@0.10.0:
+  version "0.10.0"
+  resolved "https://registry.yarnpkg.com/vite-plugin-pwa/-/vite-plugin-pwa-0.10.0.tgz#56ea6c19b696c8901736aac97f9f316d3090a7c3"
+  integrity sha512-QTI2OshRFR46JFS3KLVXXdIyhy+eO5pO3ezbeIXRAMNlUPJuB/r5sXhpRUGRZIkbrIq+UwSULNsCaNo8Ux5ZqA==
   dependencies:
     debug "^4.3.2"
-    fast-glob "^3.2.5"
+    fast-glob "^3.2.7"
     pretty-bytes "^5.6.0"
-    rollup "^2.51.2"
+    rollup "^2.55.1"
     workbox-build "^6.1.5"
     workbox-window "^6.1.5"
 
