@@ -2510,7 +2510,7 @@ csstype@~3.0.5:
   resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.0.8.tgz#d2266a792729fb227cd216fb572f43728e1ad340"
   integrity sha512-jXKhWqXPmlUeoQnF/EhTtTl4C9SnrxSH/jZUih3jmO6lBKr99rP3/+FmrMj4EFpOXzMtXHAZkd3x0E6h6Fgflw==
 
-date-fns@^2.19.0, date-fns@^2.23.0:
+date-fns@2.23.0, date-fns@^2.19.0:
   version "2.23.0"
   resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-2.23.0.tgz#4e886c941659af0cf7b30fafdd1eaa37e88788a9"
   integrity sha512-5ycpauovVyAk0kXNZz6ZoB9AYMZB4DObse7P3BPWmyEjXNORTI8EJ6X0uaSAq4sCHzM1uajzrkr6HnsLQpxGXA==
@@ -3946,7 +3946,7 @@ mz@^2.4.0:
     object-assign "^4.0.1"
     thenify-all "^1.0.0"
 
-naive-ui@^2.16.4:
+naive-ui@2.16.4:
   version "2.16.4"
   resolved "https://registry.yarnpkg.com/naive-ui/-/naive-ui-2.16.4.tgz#d3b4f111a447c77b8846cb9accc7223f608f4b4f"
   integrity sha512-BLbJqpIV5qjcphdsYMKTb/AlhsX3N7Cmt1U4nvzRBiYeRvOB4uVNuC63psRzJa0spnqDc3fhiSsnTHsb7/oISg==
