@@ -11,12 +11,12 @@
       "@taquito/taquito": "9.2.0",
       "@temple-wallet/dapp": "4.0.1",
       "date-fns": "2.23.0",
-      "vue": "3.2.4",
+      "vue": "^3.2.5",
       "vue-router": "4.0.11"
    },
    "devDependencies": {
       "@vitejs/plugin-vue": "1.5.0",
-      "@vue/compiler-sfc": "3.2.4",
+      "@vue/compiler-sfc": "3.2.5",
       "@vuedx/typescript-plugin-vue": "0.7.4",
       "@vuedx/typescript-vetur": "0.7.4",
       "@windicss/plugin-heropatterns": "0.0.8",
@@ -29,20 +29,20 @@
       "vite-plugin-externals": "0.1.7",
       "vite-plugin-md": "0.11.0",
       "vite-plugin-pages": "0.17.4",
-      "vite-plugin-pwa": "0.11.0",
+      "vite-plugin-pwa": "0.11.2",
       "vite-plugin-vue-layouts": "0.3.1",
-      "vite-plugin-windicss": "1.2.8",
+      "vite-plugin-windicss": "1.2.9",
       "vue-tsc": "0.3.0",
       "windicss": "3.1.7"
    },
    "optionalDependencies": {
-      "@types/node": "^16.6.1",
-      "@typescript-eslint/eslint-plugin": "^4.29.2",
-      "@typescript-eslint/parser": "^4.29.2",
+      "@types/node": "^16.7.1",
+      "@typescript-eslint/eslint-plugin": "^4.29.3",
+      "@typescript-eslint/parser": "^4.29.3",
       "eslint": "^7.32.0",
       "eslint-config-airbnb-typescript": "^12.3.1",
       "eslint-import-resolver-typescript": "^2.4.0",
-      "eslint-plugin-import": "^2.24.0",
+      "eslint-plugin-import": "^2.24.1",
       "eslint-plugin-vue": "^7.16.0"
    }
 }
