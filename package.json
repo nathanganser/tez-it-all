@@ -11,12 +11,12 @@
       "@taquito/taquito": "9.2.0",
       "@temple-wallet/dapp": "4.0.1",
       "date-fns": "2.23.0",
-      "vue": "3.2.5",
+      "vue": "3.2.6",
       "vue-router": "4.0.11"
    },
    "devDependencies": {
       "@vitejs/plugin-vue": "1.5.0",
-      "@vue/compiler-sfc": "3.2.5",
+      "@vue/compiler-sfc": "3.2.6",
       "@vuedx/typescript-plugin-vue": "0.7.4",
       "@vuedx/typescript-vetur": "0.7.4",
       "@windicss/plugin-heropatterns": "0.0.8",
