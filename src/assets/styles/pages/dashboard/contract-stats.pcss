@@ -3,25 +3,30 @@
    text-center overflow-hidden;
 
    .stats-amount {
-      @apply relative py-10 my-auto
-      font-medium text-4xl sm:text-5xl md:text-7xl lg:text-8xl;
+      @apply relative my-auto py-8 sm:py-10;
 
-      &:after {
-         @apply absolute ml-1 content-ꜩ
-         text-default/80 text-xl md:text-3xl;
+      &-xtz {
+         @apply block font-medium text-4xl sm:text-5xl md:text-7xl lg:text-8xl;
+
+         &:after {
+            @apply absolute ml-1 content-ꜩ
+            text-default/80 text-xl md:text-3xl;
+         }
+      }
+
+      &-usd {
+         @apply block mt-4 sm:(mt-10 text-xl) text-default/75;
       }
    }
 
    .stats-items {
-      @apply grid grid-cols-2;
+      @apply grid grid-cols-1 sm:grid-cols-2;
 
       .stats-item {
-         @apply p-5 flex flex-col items-center justify-center;
+         @apply p-5 flex flex-col items-center justify-center
+         first-of-type:sm:(border-r border-black/8);
          border-top: 1px solid rgba(0, 0, 0, 0.08);
 
-         &:first-of-type {
-            border-right: 1px solid rgba(0, 0, 0, 0.08);
-         }
 
          &-label {
             @apply text-sm sm:text-base text-default/78;
