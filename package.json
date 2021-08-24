@@ -11,7 +11,7 @@
       "@taquito/taquito": "9.2.0",
       "@temple-wallet/dapp": "4.0.1",
       "date-fns": "2.23.0",
-      "vue": "^3.2.5",
+      "vue": "3.2.5",
       "vue-router": "4.0.11"
    },
    "devDependencies": {

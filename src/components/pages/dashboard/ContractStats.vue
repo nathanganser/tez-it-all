@@ -52,6 +52,7 @@ export default defineComponent({
       };
    },
 
+   /*
    watch: {
       stats: {
          handler() {
@@ -60,6 +61,7 @@ export default defineComponent({
          immediate: true
       }
    },
+   */
 
    methods: {
       async convertAmountToUSD() {
