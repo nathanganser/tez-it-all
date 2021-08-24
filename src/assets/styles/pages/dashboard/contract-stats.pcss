@@ -3,12 +3,19 @@
    text-center overflow-hidden;
 
    .stats-amount {
-      @apply relative py-10 my-auto
-      font-medium text-4xl sm:text-5xl md:text-7xl lg:text-8xl;
+      @apply relative py-10 my-auto;
 
-      &:after {
-         @apply absolute ml-1 content-ꜩ
-         text-default/80 text-xl md:text-3xl;
+      &-xtz {
+         @apply block font-medium text-4xl sm:text-5xl md:text-7xl lg:text-8xl;
+
+         &:after {
+            @apply absolute ml-1 content-ꜩ
+            text-default/80 text-xl md:text-3xl;
+         }
+      }
+
+      &-usd {
+         @apply block mt-4 sm:(mt-10 text-xl) text-default/75;
       }
    }
 

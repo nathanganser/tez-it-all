@@ -1,6 +1,12 @@
 <template>
    <div class="dashboard-card contract-stats">
-      <div class="stats-amount">{{ stats.totalAmount || 0 }}</div>
+      <div class="stats-amount">
+         <span class="stats-amount-xtz">{{ stats.totalAmount || 0 }}</span>
+         <span
+            v-show="amountUSD > 0"
+            class="stats-amount-usd"
+         >{{ amountUSD }}$</span>
+      </div>
 
       <div class="stats-items">
          <div class="stats-item">
@@ -30,6 +36,7 @@
 <script lang="ts">
 import { defineComponent, PropType } from 'vue';
 import { formatRelative } from 'date-fns';
+import { getAmountInUSD } from '~/plugins/api';
 
 export default defineComponent({
    props: {
@@ -39,7 +46,27 @@ export default defineComponent({
       }
    },
 
+   data() {
+      return {
+         amountUSD: 0
+      };
+   },
+
+   watch: {
+      stats: {
+         handler() {
+            this.convertAmountToUSD();
+         },
+         immediate: true
+      }
+   },
+
    methods: {
+      async convertAmountToUSD() {
+         const value = await getAmountInUSD(this.stats.totalAmount);
+         this.amountUSD = Number(value.toFixed(2));
+      },
+
       copyBidderAddress() {
          navigator.clipboard.writeText(this.stats.currentWinner);
       },
