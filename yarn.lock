@@ -6007,6 +6007,15 @@ vue-tsc@0.3.0:
   dependencies:
     vscode-vue-languageservice "^0.27.0"
 
+vue@3.2.5:
+  version "3.2.5"
+  resolved "https://registry.yarnpkg.com/vue/-/vue-3.2.5.tgz#cb6c633fda7c36017f3a52b9ccdafec0041a98b5"
+  integrity sha512-ZpKNGyFGWL4J5e8aWuazgPkxACkB6mMYsXfP/Ez/DvdQrHVl9Uw5MwKmZwui342qWYAI1AvLaLIyf87J33/TDw==
+  dependencies:
+    "@vue/compiler-dom" "3.2.5"
+    "@vue/runtime-dom" "3.2.5"
+    "@vue/shared" "3.2.5"
+
 vue@^3.0.11:
   version "3.1.5"
   resolved "https://registry.yarnpkg.com/vue/-/vue-3.1.5.tgz#12879b11d0685ee4478c8869551799630a52f9fe"
@@ -6015,15 +6024,6 @@ vue@^3.0.11:
     "@vue/compiler-dom" "3.1.5"
     "@vue/runtime-dom" "3.1.5"
     "@vue/shared" "3.1.5"
-
-vue@^3.2.5:
-  version "3.2.5"
-  resolved "https://registry.yarnpkg.com/vue/-/vue-3.2.5.tgz#cb6c633fda7c36017f3a52b9ccdafec0041a98b5"
-  integrity sha512-ZpKNGyFGWL4J5e8aWuazgPkxACkB6mMYsXfP/Ez/DvdQrHVl9Uw5MwKmZwui342qWYAI1AvLaLIyf87J33/TDw==
-  dependencies:
-    "@vue/compiler-dom" "3.2.5"
-    "@vue/runtime-dom" "3.2.5"
-    "@vue/shared" "3.2.5"
 
 vueuc@^0.4.9:
   version "0.4.10"
