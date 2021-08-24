@@ -1,4 +1,5 @@
 import { defineConfig } from 'windicss/helpers';
+import defaultTheme from 'windicss/defaultTheme';
 import pluginScrollbar from '@windicss/plugin-scrollbar';
 import pluginHeroPatterns from '@windicss/plugin-heropatterns';
 
@@ -7,7 +8,7 @@ export default defineConfig({
 
    theme: {
       fontFamily: {
-         sans: ['Inter', 'Roboto', 'sans-serif']
+         default: ['Inter', ...defaultTheme.fontFamily.sans]
       },
 
       extend: {
