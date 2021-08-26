@@ -1,7 +1,11 @@
 <template>
    <main class="view-dashboard">
       <div class="view-dashboard-contract">
-         <ContractStats :stats="contract" class="dashboard-contract-stats" />
+         <ContractStats
+            :stats="contract"
+            :xtz-rate="xtzRate"
+            class="dashboard-contract-stats"
+         />
          <ContractActions
             v-bind="{ contract }"
             class="dashboard-contract-actions"
@@ -17,7 +21,7 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-import { getContractStats } from '~/plugins/api';
+import { getContractStats, getXTZRateInUSD } from '~/plugins/api';
 
 export default defineComponent({
    name: 'Dashboard',
@@ -25,6 +29,8 @@ export default defineComponent({
    data() {
       return {
          contract: {} as ContractStats,
+         xtzRate: 0,
+
          isLoaded: false
       };
    },
@@ -36,6 +42,7 @@ export default defineComponent({
    methods: {
       async getStats() {
          this.contract = await getContractStats();
+         this.xtzRate = await getXTZRateInUSD();
          this.isLoaded = true;
 
          setTimeout(this.getStats, 5000);
